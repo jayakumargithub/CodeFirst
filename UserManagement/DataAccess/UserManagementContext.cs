@@ -6,14 +6,18 @@ namespace DataAccess
     using System.Linq;
     using DataModel;
 
+
     public partial class UserManagementContext : DbContext
     {
         public UserManagementContext()
             : base("name=UserManagement")
         {
+           this.Database.Initialize(force: false); 
+
         }
 
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Address> Addresses { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -24,6 +28,8 @@ namespace DataAccess
             modelBuilder.Entity<User>()
                 .Property(e => e.LastName)
                 .IsUnicode(false);
+
+  
         }
     }
 }

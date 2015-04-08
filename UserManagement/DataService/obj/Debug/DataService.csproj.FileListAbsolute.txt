@@ -1,8 +1,5 @@
 C:\Projects\CodeFirst\UserManagement\DataService\bin\Debug\DataService.dll
 C:\Projects\CodeFirst\UserManagement\DataService\bin\Debug\DataService.pdb
-C:\Projects\CodeFirst\UserManagement\DataService\obj\Debug\DataService.dll
-C:\Projects\CodeFirst\UserManagement\DataService\obj\Debug\DataService.pdb
-C:\Projects\CodeFirst\UserManagement\DataService\obj\Debug\DataService.csprojResolveAssemblyReference.cache
 C:\Projects\CodeFirst\UserManagement\DataService\bin\Debug\DataModel.dll
 C:\Projects\CodeFirst\UserManagement\DataService\bin\Debug\DataRepository.dll
 C:\Projects\CodeFirst\UserManagement\DataService\bin\Debug\EntityFramework.dll
@@ -11,3 +8,6 @@ C:\Projects\CodeFirst\UserManagement\DataService\bin\Debug\DataModel.pdb
 C:\Projects\CodeFirst\UserManagement\DataService\bin\Debug\DataRepository.pdb
 C:\Projects\CodeFirst\UserManagement\DataService\bin\Debug\EntityFramework.xml
 C:\Projects\CodeFirst\UserManagement\DataService\bin\Debug\DataAccess.pdb
+C:\Projects\CodeFirst\UserManagement\DataService\obj\Debug\DataService.csprojResolveAssemblyReference.cache
+C:\Projects\CodeFirst\UserManagement\DataService\obj\Debug\DataService.dll
+C:\Projects\CodeFirst\UserManagement\DataService\obj\Debug\DataService.pdb

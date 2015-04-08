@@ -11,7 +11,10 @@ namespace DataClient
         static void Main(string[] args)
         {
             var uService = new DataService.UserService();
-            uService.GetUsers();
+          //  uService.GetUsers();
+
+           // uService.CreateUser();
+            uService.GetUserAddress();
         }
     }
 }
