@@ -15,6 +15,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataClient", "DataClient\Da
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{FEF5677A-239C-450D-8B7F-7A4CE0F65827}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{489D15F9-736E-4A06-9FD2-8D97406579D9}"
+	ProjectSection(SolutionItems) = preProject
+		sql\dbo.Address.Table.sql = sql\dbo.Address.Table.sql
+		sql\dbo.GetUsers.StoredProcedure.sql = sql\dbo.GetUsers.StoredProcedure.sql
+		sql\dbo.GetUsersAddress.StoredProcedure.sql = sql\dbo.GetUsersAddress.StoredProcedure.sql
+		sql\dbo.User.Table.sql = sql\dbo.User.Table.sql
+		sql\dbo.UserAddress.Table.sql = sql\dbo.UserAddress.Table.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
